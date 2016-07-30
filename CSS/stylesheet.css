@@ -1,0 +1,175 @@
+/* Remove the space between nav and header */
+
+h1 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+/* These are the section titles on the Future page */
+
+h4 {
+    color: blue;
+    padding-left: 5px;
+}
+
+/* add google font and background color to entire website */
+
+html {
+font-family: 'Lora', serif;
+background-color: #f8eed0;
+}
+
+/* styling for navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #9DAEE0;  
+    width: 950px;
+}
+
+/* styling for the inline list items - links on the nav bar */
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline-block;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+/* Mousing over link will change its background color to lavender.*/
+
+li a:hover {
+    background-color: lavender;
+}
+
+/* Clicking the link will change its background color to light pink.*/
+
+li a:active {
+    background-color: lightpink;
+}
+
+/* Add margins to the navigation bar and other sections.*/
+
+div, ul{
+    margin: 5px;
+}
+
+/* End of navigation styling */
+
+p {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/*this is the styling for the two paragraphs on the home page */
+
+#center {
+    text-align: center;
+}
+
+/* This is the styling for the images on the home page */
+
+.display {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid #9E957A;
+}
+
+/* this is the styling for the images on the Future page */
+
+img {
+    width: 33%;
+    display: inline-block;
+}
+
+/* below is the styling for the divs on the home page */
+
+#header {
+    width: 950px;
+    font-size:25px;
+    height: 160px;
+    padding-top: 5px;
+    background-color: #A1D490;
+}
+
+#secondarySection {
+    width: 470px;
+    height: 300px;
+    background-color: #EDD58E;
+    float: left;
+}
+
+#mainSection {
+    width: 470px;
+    height: 300px;
+    background-color: #EDD58E;
+    float: left;
+}
+
+/* this is the small block of text under the images */
+#third {
+    width: 950px;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+/* this is the styling for the main container to center the content */
+
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+/* the footer is on all three pages */
+
+#footer {
+    clear: both;
+    width: 950px;
+    height: 60px;
+    background-color: #F2ACE1;
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* these are the divs on the History of the Park page */
+
+#HistoryOne {
+    width: 930px;
+    height: 370px;
+    background-color: #EDD58E;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#HistoryTwo {
+    width: 930px;
+    height: 245px;
+    background-color: #EDD58E;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+    
+/* this is the div on the Future of the Park page */
+
+#Future {
+    width: 930px;
+    height:750px;
+    background-color: #A1D490;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
